@@ -28,6 +28,6 @@ while (!feof($file_handle)) {
 	}
 
 $responses = $client->bulk($params);
-fclose($file_handle)
+fclose($file_handle);
 
 ?>
